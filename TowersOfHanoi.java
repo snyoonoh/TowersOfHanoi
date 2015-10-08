@@ -156,10 +156,10 @@ public class TowersOfHanoi{
 	public boolean winGame(){
 		if(s1.empty() && s2.empty()){
 			if(tries == min){
-				System.out.println("\nCongratulations Chris!! you finished in minimum number of tries!!");
+				System.out.println("\nCongratulations!! you finished in minimum number of tries!!");
 				return true;
 			}
-			System.out.println("\nCongratulations Chris!! You solved it! number of tries were: "+ tries + "\nThe minimum number of tries is: " + min);
+			System.out.println("\nCongratulations!! You solved it! number of tries were: "+ tries + "\nThe minimum number of tries is: " + min);
 			return true;
 		}
 		return false;
