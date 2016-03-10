@@ -40,5 +40,29 @@ Commands : "s1s2"- move top block from s1 to s2
            "min"- see minimum number of minimum steps to complete  
            "restart"- restart game to beginning  
            "end"- end program  
+#### Winning
 
-press command to see "command"  
+When you complete the game you are prompted with the screen:
+s1s3
+
+STATE
+-------------------------------(tries: 9)
+s1: 
+s2: 
+s3: 3 2 1 
+------------------------------------------
+
+Congratulations!! You solved it! number of tries were: 9
+The minimum number of tries is: 7
+
+
+
+STATE
+-------------------------------(tries: 7)
+s1: 
+s2: 
+s3: 3 2 1 
+------------------------------------------
+
+Congratulations!! you finished in minimum number of tries!!
+
